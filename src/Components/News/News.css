@@ -1,0 +1,38 @@
+.news-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .filter-container {
+    margin-bottom: 20px;
+  }
+  
+  .filter-container select {
+    margin-right: 10px;
+  }
+  
+  .articles-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .article {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .article h2 {
+    margin-top: 0;
+  }
+  
+  .article p {
+    margin-bottom: 10px;
+  }
+  
+  .article a {
+    color: blue;
+  }
+  
