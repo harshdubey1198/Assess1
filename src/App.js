@@ -5,7 +5,7 @@ import Home from './Components/DataFetch/Home';
 import Login from './Components/Login/Login';
 import IPComponent from './Components/IpFetch/IPComponent';
 import { ThemeProvider } from './ThemeContext';
-import Imageblend from './Components/Mix Blend/Imageblend';
+import Imageblend from './Components/Image Splash/Imageblend';
 import News from './Components/News/News';
 import WeatherForecast from './Components/Weather Forecast/WeatherForecast';
 import SearchEngine from './Components/SearchEngine/SearchEngine';

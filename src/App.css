@@ -169,8 +169,8 @@
   height:90vh;
 }
 img{
-  width:150px;
-  height:100px;
+  width:250px;
+  height:150px;
    
  
 
@@ -187,3 +187,14 @@ button{
   padding:10px;
   
 } 
+
+
+.img1{
+  mix-blend-mode: screen;
+ 
+  height: 250px;
+  width: 300px;
+  background-image: url(./Components/Image\ Splash/splash.png);
+  background-size: cover;
+  background-position: center;
+}
