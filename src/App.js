@@ -10,6 +10,7 @@ import News from './Components/News/News';
 import WeatherForecast from './Components/Weather Forecast/WeatherForecast';
 import SearchEngine from './Components/SearchEngine/SearchEngine';
 import Calculator from './Components/Calculator/Calculator';
+import GitHubUserCard from './Components/Github Profile Card/GithubUserCard';
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
         <Route path='/calculator' element={<Calculator/>} />
         <Route path='/weather' element={<WeatherForecast/>}/>
         <Route path='/search' element={<SearchEngine/>} />
+        <Route path='/gitcard' element={<GitHubUserCard/>} />
         <Route path="*" element={<Navigate to="/" replace={true} />} />
       </Routes>
     </Router>

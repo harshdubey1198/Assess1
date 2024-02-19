@@ -79,12 +79,13 @@ const Home = ({ user, onLogout }) => {
       )}
       <div className='btn-row'>
         <button onClick={() => navigate('/img')}>Image Blend</button>
-        <button style={{marginTop:"-10px"}} onClick={() => navigate('/Ip')}>IP Check</button>
+        <button onClick={() => navigate('/Ip')}>IP Check</button>
         <button onClick={() => navigate('/news')}>News</button>
         <button onClick={() => navigate('/weather')}>Weather</button>
         <button onClick={() => navigate('/search')}>Search Engine</button>
         <button onClick={() => navigate('/calculator')}>Calculator</button>
-
+        
+        <button onClick={() => navigate('/gitcard')}>GitHub User Card</button>
         </div>
     </div>
   );
