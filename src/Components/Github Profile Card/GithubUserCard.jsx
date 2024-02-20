@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './style.css'; // Import CSS file for styling
+import { useNavigate } from 'react-router-dom';
 
 const GitHubUserCard = () => {
   const [userData, setUserData] = useState(null);
   const [inputValue, setInputValue] = useState('');
   const [error, setError] = useState('');
-
+  const navigate = useNavigate();
   const fetchUserData = async () => {
     try {
       const response = await axios.get(`https://api.github.com/users/${inputValue}`);
@@ -53,6 +54,7 @@ const GitHubUserCard = () => {
         
         </div>
       )}
+      <button onClick={() => navigate('/home')}>Go to Home</button>
     </div>
   );
 };

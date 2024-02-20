@@ -85,7 +85,7 @@ const Home = ({ user, onLogout }) => {
         <button onClick={() => navigate('/search')}>Search Engine</button>
         <button onClick={() => navigate('/calculator')}>Calculator</button>
         
-        <button onClick={() => navigate('/gitcard')}>GitHub User Card</button>
+        <button onClick={() => navigate('/gitcard')}>Git Card</button>
         </div>
     </div>
   );
