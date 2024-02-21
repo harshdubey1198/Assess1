@@ -32,11 +32,11 @@ const Home = ({ user, onLogout }) => {
   return (
     <div className="Home-div">
       <h1>Welcome, <span>{user.username || 'Guest'}!</span></h1>
+      <button className='abt-btn' onClick={() => navigate('/about')}>About Us</button>
 
-      {/* Displaying list of data */}
       <ul>
         {apiData.map((item) => (
-          <li key={item.id}>{item.title}</li> // Assuming the API returns an array of objects with 'id' and 'title' fields
+          <li key={item.id}>{item.title}</li> 
         ))}
       </ul>
 

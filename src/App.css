@@ -59,6 +59,12 @@
     outline: none;
     border: none;
   }
+  .abt-btn{
+    background: #ff0000;
+    width:75px;
+    margin-right:-90%;
+    margin-top: -50px;
+  }
 }
 
 .Login-div{
@@ -205,21 +211,34 @@ button{
   align-items: center;
   margin-top: 20px;
   max-width: 600px; /* Adjust the maximum width as needed */
+
 }
 
 .btn-row button {
   margin: 10px;
   padding: 10px 20px;
+  border: 1px solid transparent; 
   border-radius: 5px;
   background-color: black;
   color: white;
-  border: none;
   cursor: pointer;
-  width: calc(25% - 20px); /* Adjust the width of each button to fit 4 buttons per row */
+  width: calc(25% - 20px);
+  outline: none;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.btn-row button:hover {
+  background-color: #ffffff;
+  color: black;
+  border-color: black; 
 }
 
 @media (max-width: 600px) {
+  
   .btn-row button {
-    width: calc(50% - 20px); /* Adjust the width for smaller screens to fit 2 buttons per row */
+    width: calc(50% - 20px); 
   }
+}
+.abt-btn{
+  color: white ;
 }
