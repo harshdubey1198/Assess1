@@ -78,7 +78,8 @@ const Home = ({ user, onLogout }) => {
         </button>
       )}
       <div className='btn-row'>
-        <button onClick={() => navigate('/img')}>Image Blend</button>
+        <button onClick={() => navigate('/form')}>Offer Letter Generator</button>
+
         <button onClick={() => navigate('/Ip')}>IP Check</button>
         <button onClick={() => navigate('/news')}>News</button>
         <button onClick={() => navigate('/weather')}>Weather</button>

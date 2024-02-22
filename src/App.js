@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Home from './Components/DataFetch/Home';
+import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
+import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
 import IPComponent from './Components/IpFetch/IPComponent';
 import { ThemeProvider } from './ThemeContext';
@@ -12,6 +12,8 @@ import SearchEngine from './Components/SearchEngine/SearchEngine';
 import Calculator from './Components/Calculator/Calculator';
 import GitHubUserCard from './Components/Github Profile Card/GithubUserCard';
 import About from './Components/About & Feedback/About';
+import Form from './Components/Offer letter/Form';
+import OfferLetterTemplate from './Components/Offer letter/OfferLetterTemplate';
 
 
 
@@ -54,7 +56,9 @@ function App() {
         <Route path='/weather' element={<WeatherForecast/>}/>
         <Route path='/search' element={<SearchEngine/>} />
         <Route path='/about' element={<About/>} />
+        <Route path='/form' element={<Form/>} />
         <Route path='/gitcard' element={<GitHubUserCard/>} />
+        <Route path='/offerletter' element={<OfferLetterTemplate/>} />
         <Route path="*" element={<Navigate to="/" replace={true} />} />
       </Routes>
     </Router>
