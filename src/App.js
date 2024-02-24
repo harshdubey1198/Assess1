@@ -57,7 +57,8 @@ function App() {
           <Route path='/search' element={<SearchEngine/>} />
           <Route path='/about' element={<About/>} />
           <Route path='/form' element={<Form/>} />
-          <Route path='/gitcard' element={<GitHubUserCard/>} />
+          //github card to check profile details .
+          <Route path='/gitcard' element={<GitHubUserCard/>} /> 
           <Route path='/offerletter' element={<OfferLetterTemplate/>} />
           <Route path="*" element={<Navigate to="/" replace={true} />} />
         </Routes>
