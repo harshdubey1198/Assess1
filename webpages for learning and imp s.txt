@@ -26,3 +26,4 @@ uicolors
 for fake credit cards use - namsogen 
 leetcode code solving for t shirt
 use many website's to get refrence for learning coding cssplay  
+https://www.framer.com/motion/animate-function/ for animation in react js  
